@@ -39,8 +39,7 @@ public class Car {
         }
     }
 
-    @Override
-    public String toString() {
-        return String.format(STRING_FORMAT, getCarNameValue(), position.toString());
+    public String carStatus() {
+        return String.format(STRING_FORMAT, getCarNameValue(), position.positionStatus());
     }
 }

@@ -16,8 +16,7 @@ public class Position {
         this.position += 1;
     }
 
-    @Override
-    public String toString() {
+    public String positionStatus() {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < this.position; i++) {
             sb.append(POSITION_MARK);

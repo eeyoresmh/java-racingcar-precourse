@@ -17,7 +17,7 @@ public class CarTest {
     public void 이동1회_toString검증() {
         car.movePosition();
         assertThat(car.getPositionValue()).isEqualTo(1);
-        assertThat(car.toString()).isEqualTo("test : -");
+        assertThat(car.carStatus()).isEqualTo("test : -");
     }
 
     @Test
@@ -25,7 +25,7 @@ public class CarTest {
         car.movePosition();
         car.movePosition();
         assertThat(car.getPositionValue()).isEqualTo(2);
-        assertThat(car.toString()).isEqualTo("test : --");
+        assertThat(car.carStatus()).isEqualTo("test : --");
     }
 
     @Test
@@ -34,7 +34,7 @@ public class CarTest {
         car.movePosition();
         car.movePosition();
         assertThat(car.getPositionValue()).isEqualTo(3);
-        assertThat(car.toString()).isEqualTo("test : ---");
+        assertThat(car.carStatus()).isEqualTo("test : ---");
     }
 
     @Test
@@ -44,6 +44,6 @@ public class CarTest {
         car.movePosition();
         car.movePosition();
         assertThat(car.getPositionValue()).isEqualTo(4);
-        assertThat(car.toString()).isEqualTo("test : ----");
+        assertThat(car.carStatus()).isEqualTo("test : ----");
     }
 }

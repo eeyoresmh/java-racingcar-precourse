@@ -29,7 +29,7 @@ public class Cars {
 
         cars.forEach(car -> {
             if (car.getPositionValue() == furthestPositionValue) {
-                raceResult.addWinnerCar(car);
+                raceResult.addWinnerCar(car.getCarNameValue());
             }
         });
 

@@ -16,6 +16,6 @@ public class RaceResult {
     }
 
     public String getResult() {
-        return String.format(RESULT_FORMAT, String.join(",", winnerCarNames));
+        return String.format(RESULT_FORMAT, String.join(", ", winnerCarNames));
     }
 }

@@ -21,6 +21,7 @@ public class Cars {
             car.tryMovePosition();
             System.out.println(car.carStatus());
         });
+        System.out.println();
     }
 
     public RaceResult getRaceResult() {

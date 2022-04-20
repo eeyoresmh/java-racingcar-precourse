@@ -15,4 +15,8 @@ public class Times {
             throw new IllegalArgumentException(ILLEGAL_ARGUMENT_MESSAGE);
         }
     }
+
+    public int getTimes() {
+        return times;
+    }
 }

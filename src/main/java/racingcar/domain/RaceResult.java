@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RaceResult {
-    private static final String RESULT_FORMAT = "최종 우승자는 %s 입니다.";
+    private static final String RESULT_FORMAT = "최종 우승자: %s";
     List<String> winnerCarNames;
 
     public RaceResult() {

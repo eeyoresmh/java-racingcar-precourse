@@ -13,7 +13,7 @@ public class Game {
 
         Cars cars = inputCarNames.input();
 
-        raceCar(inputCarNames.input(), inputTimes.input());
+        raceCar(cars, inputTimes.input());
 
         System.out.println(cars.getRaceResult().getResult());
     }
